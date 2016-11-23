@@ -1,5 +1,6 @@
 $(document).ready(function() {
  $('.carousel.carousel-slider').carousel({full_width:true, indicators: true});
+ alert("Document is ready");
 });
 
 
@@ -7,5 +8,4 @@ $(document).ready(function() {
 
 window.setInterval(function(){
   $('.carousel').carousel('next');
-  alert("change")
 }, 5000)
