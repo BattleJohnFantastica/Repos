@@ -1,4 +1,9 @@
-$('.carousel.carousel-slider').carousel({full_width:true, indicators: true});
+$(document).ready(function() {
+ $('.carousel.carousel-slider').carousel({full_width:true, indicators: true});
+});
+
+
+
 
 window.setInterval(function(){
   $('.carousel').carousel('next');
